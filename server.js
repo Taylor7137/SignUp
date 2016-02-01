@@ -1,8 +1,10 @@
 var express = require('express'),
     server = express();
 
+server.use(express.static(__dirname+'/css'));
+
 server.get('/', function(req, res){
-	res.sendFile('html/index.html', { root: __dirname });
+	res.sendFile('html/index.html', {root: __dirname});
 });
 
 server.post('/signup', function(req, res){
