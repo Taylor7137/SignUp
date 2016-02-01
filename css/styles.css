@@ -24,7 +24,8 @@ nav {
 	padding-top: 5px;
 	padding-bottom: 5px;
 	height: 37px;
-	background-color: rgb(85,172,238);
+/*	background-color: rgb(85,172,238);*/
+	background: linear-gradient(to right, rgb(85,172,238), #41e374);
 }
 
 #image {
