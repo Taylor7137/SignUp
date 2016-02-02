@@ -25,7 +25,7 @@ nav {
 	padding-bottom: 5px;
 	height: 37px;
 /*	background-color: rgb(85,172,238);*/
-	background: linear-gradient(to right, rgb(85,172,238), #41e374);
+	background: linear-gradient(to right, rgb(85,172,238) 62%, #41e374 100%);
 }
 
 #image {
@@ -151,6 +151,9 @@ div.button button {
 div.paragraph {
 	text-align: left;
 	color: #8899a6;
+   font-size: 12px;
+   line-height: 18px;
+	width: 400px;
 }
 /*
 #ppp {
